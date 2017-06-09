@@ -1,0 +1,13 @@
+name: SEO Starter
+type: module
+description: A set of default configurations to get you jumpstarted configuring Drupal for SEO.
+core: 8.x
+package: SEO
+dependencies:
+  - ctools
+  - token
+  - metatag
+  - metatag_google_plus
+  - metatag_open_graph
+  - metatag_twitter_cards
+  - metatag_verification
