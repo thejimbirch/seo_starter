@@ -15,4 +15,5 @@ dependencies:
   - pathauto
   - redirect
   - schema_metatag
+  - schema_web_site
   - seo_checklist
