@@ -13,5 +13,6 @@ dependencies:
   - metatag_twitter_cards
   - metatag_verification
   - pathauto
-  - seo_checklist
   - redirect
+  - schema_metatag
+  - seo_checklist
