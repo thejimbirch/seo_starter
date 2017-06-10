@@ -6,7 +6,7 @@ package: SEO
 dependencies:
   - coffee
   - ctools
-  - token
+  - hreflang
   - metatag
   - metatag_google_plus
   - metatag_open_graph
@@ -17,3 +17,4 @@ dependencies:
   - schema_metatag
   - schema_web_site
   - seo_checklist
+  - token
