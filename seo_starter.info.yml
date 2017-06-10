@@ -4,6 +4,7 @@ description: A set of default configurations to get you jumpstarted configuring 
 core: 8.x
 package: SEO
 dependencies:
+  - coffee
   - ctools
   - token
   - metatag
@@ -11,3 +12,6 @@ dependencies:
   - metatag_open_graph
   - metatag_twitter_cards
   - metatag_verification
+  - pathauto
+  - seo_checklist
+  - redirect
