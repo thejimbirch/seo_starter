@@ -6,6 +6,7 @@ package: SEO
 dependencies:
   - coffee
   - ctools
+  - google_analytics
   - hreflang
   - metatag
   - metatag_google_plus
