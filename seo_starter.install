@@ -39,4 +39,8 @@ function seo_starter_install() {
   seo_starter_override_config('metatag.metatag_defaults.node', $path);
   seo_starter_override_config('metatag.metatag_defaults.taxonomy_term', $path);
   seo_starter_override_config('metatag.metatag_defaults.user', $path);
+  seo_starter_override_config('pathauto.pattern.content', $path);
+  seo_starter_override_config('pathauto.pattern.taxonomy', $path);
+  seo_starter_override_config('pathauto.pattern.user', $path);
+  seo_starter_override_config('pathauto.settings', $path);
 }
