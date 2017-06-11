@@ -31,6 +31,7 @@ function seo_starter_install() {
   // Set path.
   $path = drupal_get_path('module', 'seo_starter');
   // Override configs.
+  seo_starter_override_config('coffee.configuration', $path);
   seo_starter_override_config('metatag.metatag_defaults.403', $path);
   seo_starter_override_config('metatag.metatag_defaults.404', $path);
   seo_starter_override_config('metatag.metatag_defaults.front', $path);
