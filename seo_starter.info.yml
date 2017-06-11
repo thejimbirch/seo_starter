@@ -17,4 +17,5 @@ dependencies:
   - schema_metatag
   - schema_web_site
   - seo_checklist
+  - simple_sitemap
   - token
