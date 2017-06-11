@@ -44,4 +44,6 @@ function seo_starter_install() {
   seo_starter_override_config('pathauto.pattern.user', $path);
   seo_starter_override_config('pathauto.settings', $path);
   seo_starter_override_config('redirect.settings', $path);
+  seo_starter_override_config('simple_sitemap.custom', $path);
+  seo_starter_override_config('simple_sitemap.settings', $path);
 }
