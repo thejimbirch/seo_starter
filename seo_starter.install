@@ -1,5 +1,7 @@
 <?php
 
+use Symfony\Component\Yaml\Yaml;
+
 /**
  * @file
  * Install the SEO Starter module.
@@ -14,14 +16,8 @@
  *   Base path.
  */
 function seo_starter_override_config($config_name, $path) {
-  // Get your custom config.
-  $config = \Drupal::configFactory()->getEditable($path . '/config/override/' . $config_name . '.yml');
-  // Get Config object.
-  $config_settings = \Drupal::configFactory()->getEditable($seo_starter_config->get($config_name));
-  // Override all data that can be overridden.
-  $config_settings->setData($seo_starter_config)->save();
-  // If you won't store any previous state, get rid of your custom config.
-  $config->delete();
+  $active_storage = \Drupal::service('config.storage');
+  $active_storage->write($config_name, Yaml::parse(file_get_contents($path . '/config/override/' . $config_name . '.yml')));
 }
 
 /**
