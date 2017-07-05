@@ -35,6 +35,7 @@ list below.
 **Requirements:**
   * coffee
   * ctools
+  * easy_breadcrumb
   * google_analytics
   * hreflang
   * metatag
